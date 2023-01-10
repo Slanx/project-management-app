@@ -39,7 +39,7 @@ export const editUser = createAsyncThunk('user/editUser', async (userInfo: INewU
   const body = JSON.stringify(userInfo.newUser);
   try {
     const data: IUserResponse = await request(
-      `https://final-task-backend-production-e06d.up.railway.app/users/${userInfo.userId}`,
+      `https://final-task-backend-production-415b.up.railway.app//users/${userInfo.userId}`,
       'PUT',
       body,
       {

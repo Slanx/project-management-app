@@ -6,7 +6,7 @@ import { parseJwt } from '../../utils/utils';
 
 export const signInRequest = async (data: ISignInData) => {
   return await request(
-    'https://final-task-backend-production-e06d.up.railway.app/auth/signin',
+    'https://final-task-backend-production-415b.up.railway.app/auth/signin',
     'POST',
     JSON.stringify(data),
     {
@@ -21,7 +21,7 @@ export const signIn = createAsyncThunk('auth/signIn', signInRequest);
 export const signUp = createAsyncThunk('auth/signUp', async (data: ISignUpData) => {
   try {
     await request(
-      'https://final-task-backend-production-e06d.up.railway.app/auth/signup',
+      'https://final-task-backend-production-415b.up.railway.app/auth/signup',
       'POST',
       JSON.stringify(data),
       {

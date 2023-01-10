@@ -1,4 +1,4 @@
-export const baseUrl = 'https://final-task-backend-production-e06d.up.railway.app';
+export const baseUrl = 'https://final-task-backend-production-415b.up.railway.app/';
 
 export const modalText = {
   board: {
