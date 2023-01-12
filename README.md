@@ -1,31 +1,32 @@
-# Информация о проекте
+# Project management system
 
-Проект финального [задания](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/react/project-management-system-EN.md) на курсе RSSchool-REACT2022Q3
+**Project management system** is an application that helps a team or group of developers achieve their goals. Analogue of trello or jira. 
+*This is the project of the [final assignment](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/react/project-management-system-EN.md) in RSSchool React Course*
 
+<font color="green"> **Deploy link** - https://project-management-app1.netlify.app </font>
 
-
-## **Инструменты которые мы используем**
-- Основной фреймворк [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- Стили пишем с помощью [Tailwind](https://tailwindcss.com/)
-- Утилита для условных стилей [classnames](https://www.npmjs.com/package/classnames)
-- Библиотека для смены языка [i18nex](https://www.i18next.com/)
+## What was used
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Classnames** - a simple JavaScript utility for conditionally joining classNames together
+- **i18next** - language change library
+- *ESLint*
+- *Prettier*
 
 ## Work
 
-**Перед началом работы убедитесь что у вас установлены расширения:**
-
-Для **VS Code**
-
+**Before you start, make sure you have VSCODE extensions:**
 - Eslint
 - EditorConfig
 - Prettier
 - Tailwind CSS IntelliSense для удобных подсказок
 
-### **Основные npm-команды** _(или yarn)_:
+**Basic npm commands (or yarn):**
 
 ```bash
-npm run start - запуск проекта для разработки
+npm run start - launch project for development
 
-npm run build - сборка проекта 
+npm run build - project build
 ```
+
